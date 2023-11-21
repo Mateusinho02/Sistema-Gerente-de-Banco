@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000c5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #fffafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.sair {
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 8px 12px; /* Ajuste o padding conforme necessário */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sair:hover {
+    background-color: #c0392b;
+}
+
+
+h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.botao {
+    display: block;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #2ecc71;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #27ae60;
+}
+
+.small-button {
+    display: inline-block;
+    color: #fff;
+    background-color: #2ecc71;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 10px; /* Adicione este estilo para dar espaço entre os botões */
+}
+
+.small-button sair{
+    display: inline-block;
+    color: #fff;
+    background: linear-gradient(to right, #ad0202, #f75454);
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 10px; /* Adicione este estilo para dar espaço entre os botões */
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative; /* Adicionando posição relativa para posicionar o ícone corretamente */
+}
+
+.search-container form {
+    display: inline-block;
+}
+
+.search-container input {
+    width: 160px; /* Reduzi a largura para dar espaço ao ícone */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-right: 330px; /* Ajustado para dar espaço suficiente para o ícone */
+}
+
+.search-container button {
+    background: linear-gradient(to right, #023875, #00c3ff);
+    color: #fff;
+    border: none;
+    padding: 10px; /* Ajustado para um valor mais apropriado */
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: absolute; /* Posicionando absolutamente em relação ao contêiner pai */
+    right: 10;
+    top: 10;
+}
+
+/* Adicione essa linha para ajustar o ícone ao lado da caixa de pesquisa */
+.search-container i {
+    position: absolute;
+    right: 12px; /* Ajuste conforme necessário para alinhar o ícone */
+    top: 50%;
+    transform: translateY(-50%);
+}
